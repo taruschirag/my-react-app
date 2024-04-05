@@ -23,15 +23,7 @@ const Navbar = () => {
         <li>
         <Link to = "/projects"> Projects </Link>
         </li>
-        
-        <li>
-            <Link to = "/Work"> Work </Link>
-        </li>
-        
-        <li>
-            <Link to = "/contact"> Contact </Link>
-        </li>
-        
+
       </ul>
       <div className="hamburger" onClick={handleClick}>
         {click? ( <FaRegFileCode size = {20} style = {{color: "#fff"}}
