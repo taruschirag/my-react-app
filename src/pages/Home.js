@@ -1,5 +1,4 @@
 import React from 'react'
-import Resume from '../assets/RESUME.jpg';
 /*Things to do:
 - Add a min and max width horizontall
 - Make the bullet points in a horizontal layout
@@ -19,7 +18,7 @@ const Home = () => {
           </p>
           <p style={{ marginBottom: '10px' }}>
             I am interested in the intersection between computer science and the real-world. More specifically,
-            in building onto existing technology to have a positive impact on society.
+            I hope to work in the intersection of technology and finance. I am also interested in software engineering to build cool stuff
           </p>
           <h3 style={{ marginBottom: '10px', marginTop: '30px' }}>Some Competitions I attended:</h3>
           <ul style={{ padding: '0', listStyleType: 'none' }}>
@@ -59,9 +58,6 @@ const Home = () => {
             <li style={{ color: 'beige', fontWeight: '200', marginBottom: '10px' }}>&#8226; <strong>Frameworks:</strong>: NextJS, ReactJS
               NumPy, Pandas, SciPy, Matplotlib, Sk-Learn, Git, GitHub</li>
           </ul>
-          <h1 style={{ marginBottom: '10px' }}>Resume</h1>
-          <img src={Resume} alt="Description of the image" style={{ maxWidth: '35%', maxHeight: '100%', marginBottom: '10px' }} />
-
 
         </div>
       </div>
